@@ -13,7 +13,7 @@ _core:
 id: drupal_cms_olivero_main_menu
 theme: drupal_cms_olivero
 region: primary_menu
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:

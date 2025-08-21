@@ -1,0 +1,18 @@
+uuid: deaf19ba-249d-4941-998e-b1b4704ceee3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.blog
+id: node.blog.unpublish_on
+field_name: unpublish_on
+entity_type: node
+bundle: blog
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

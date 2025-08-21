@@ -1,0 +1,18 @@
+uuid: 007736b0-b48c-44fe-beed-5dfe72d84e17
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.publish_on
+field_name: publish_on
+entity_type: taxonomy_term
+bundle: tags
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

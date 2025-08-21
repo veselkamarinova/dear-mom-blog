@@ -1,0 +1,18 @@
+uuid: bc6c699d-3a88-4d76-9963-afd74225d6ce
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.blog
+id: node.blog.moderation_state
+field_name: moderation_state
+entity_type: node
+bundle: blog
+label: 'Moderation state'
+description: 'The moderation state of this piece of content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 7ac46928-d019-4d14-94cb-02f23a15f2dd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - path
+id: media.image.path
+field_name: path
+entity_type: media
+bundle: image
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

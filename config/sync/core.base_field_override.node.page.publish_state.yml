@@ -1,0 +1,20 @@
+uuid: bcf79565-7af0-45aa-a4b7-d2a711cd6819
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - options
+id: node.page.publish_state
+field_name: publish_state
+entity_type: node
+bundle: page
+label: 'Publish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
