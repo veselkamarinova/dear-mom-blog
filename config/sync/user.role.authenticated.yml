@@ -1,30 +1,32 @@
-uuid: afbb0f6e-e865-403f-ab18-e3c5882d5b5c
+uuid: 621af32f-145c-46a5-b851-ec31a3e65e49
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.basic_html
+    - dashboard.dashboard.welcome
   module:
-    - comment
-    - contact
+    - captcha
+    - coffee
+    - dashboard
     - file
-    - filter
-    - search
-    - shortcut
+    - honeypot
+    - klaro
+    - media
+    - node
     - system
 _core:
-  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access comments'
+  - 'access coffee'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
+  - 'bypass honeypot protection'
   - 'delete own files'
-  - 'post comments'
-  - 'search content'
-  - 'skip comment approval'
-  - 'use text format basic_html'
+  - 'skip CAPTCHA'
+  - 'use klaro'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view welcome dashboard'
