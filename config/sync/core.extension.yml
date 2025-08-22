@@ -24,7 +24,6 @@ module:
   ckeditor5: 0
   coffee: 0
   config: 0
-  content_moderation: 0
   contextual: 0
   crop: 0
   dashboard: 0
@@ -86,7 +85,6 @@ module:
   responsive_image: 0
   sam: 0
   scheduler: 0
-  scheduler_content_moderation_integration: 0
   svg_image: 0
   symfony_mailer_lite: 0
   system: 0
