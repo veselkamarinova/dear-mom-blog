@@ -30,7 +30,6 @@ module:
   eca_content: 0
   eca_misc: 0
   eca_modeller_bpmn: 0
-  eca_project_browser: 0
   eca_render: 0
   eca_ui: 0
   eca_user: 0
@@ -65,7 +64,6 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
-  project_browser: 0
   redirect: 0
   redirect_404: 0
   responsive_image: 0
