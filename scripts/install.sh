@@ -17,7 +17,7 @@ ddev composer install
 # Restore the database.
 ddev drush sql-drop -y
 #ddev import-db --file=userfiles/dump.sql.gz
-ddev drush si --existing-config
+ddev drush si --existing-config --yes
 
 # Hardlink the files folder. Remove the existing destination since an empty
 # folder might be scaffolded here.
