@@ -10,7 +10,6 @@ module:
   ai_image_alt_text: 0
   ai_provider_openai: 0
   announcements_feed: 0
-  automatic_updates: 0
   better_exposed_filters: 0
   big_pipe: 0
   block: 0
@@ -63,7 +62,6 @@ module:
   navigation: 0
   node: 0
   options: 0
-  package_manager: 0
   page_cache: 0
   path: 0
   path_alias: 0
