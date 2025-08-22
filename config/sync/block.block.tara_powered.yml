@@ -1,17 +1,17 @@
-uuid: 2b6a87d5-86eb-4a73-9180-494e82326366
+uuid: 6d3f16f2-a307-4504-90bf-e7ad90d3e2c9
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - drupal_cms_olivero
+    - tara
 _core:
-  default_config_hash: 5VBXsyvJSTQNtrh86WK8GN_FCaRtK03D1fjfZQnUvtU
-id: drupal_cms_olivero_powered
-theme: drupal_cms_olivero
+  default_config_hash: KNm7FuGTPClw4gfFPN5Voyb-R4RYXyp2kcCzf9RqtuE
+id: tara_powered
+theme: tara
 region: footer_bottom
-weight: 0
+weight: -8
 provider: null
 plugin: system_powered_by_block
 settings:

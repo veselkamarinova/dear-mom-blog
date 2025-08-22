@@ -1,17 +1,17 @@
-uuid: c0f48868-475a-4e45-a1cb-bf8e318face4
+uuid: 955f6b79-a617-4376-b79b-be35d1d4644e
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - drupal_cms_olivero
+    - tara
 _core:
-  default_config_hash: MX2iS2rMC2lQ-sUFnOKksJ01S2lh0j5-80hKkdDmHkI
-id: drupal_cms_olivero_site_branding
-theme: drupal_cms_olivero
-region: header
-weight: 0
+  default_config_hash: L5Isbha2f5lp_ISo3rvGr3kIAEQuKCm1p2KC9-KzSaU
+id: tara_branding
+theme: tara
+region: site_branding
+weight: -8
 provider: null
 plugin: system_branding_block
 settings:
@@ -20,6 +20,6 @@ settings:
   label_display: '0'
   provider: system
   use_site_logo: true
-  use_site_name: true
+  use_site_name: false
   use_site_slogan: false
 visibility: {  }
