@@ -7,7 +7,7 @@ dependencies:
     - image.style.large
     - media.type.image
   module:
-    - svg_image
+    - image
 _core:
   default_config_hash: t2YAVeSqMs3Gpnfp_plCnQ2TsoC0u57VCUWl8e2jMMM
 id: media.image.default
