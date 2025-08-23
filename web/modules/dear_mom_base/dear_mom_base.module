@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for the dear_mom_base module.
+ */
+
+declare(strict_types=1);
+
+use Drupal\Core\Access\AccessResult;
+
+/**
+ * Implements hook_block_access().
+ *
+ * Hides the page title on the front page.
+ */
+function dear_mom_base_block_access(\Drupal\block\BlockInterface $block, $operation, \Drupal\Core\Session\AccountInterface $account) {
+  if ($operation === 'view' && $block->id() === 'dear_mom_page_title') {
+    /** @var \Drupal\Core\Path\PathMatcherInterface $pathMatcher */
+    $pathMatcher = \Drupal::service('path.matcher');
+    if ($pathMatcher->isFrontPage()) {
+      return AccessResult::forbidden()->addCacheContexts(['url.path']);
+    }
+  }
+
+  return AccessResult::neutral();
+}
