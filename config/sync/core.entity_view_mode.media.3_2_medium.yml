@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: SNMMe-RxkbvbHYDoq4zJcNDhpXasXdQwaDd0S-hDJUY
 id: media.3_2_medium
 label: '3:2 Medium'
 description: ''

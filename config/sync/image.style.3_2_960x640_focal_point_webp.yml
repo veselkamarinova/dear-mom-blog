@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - focal_point
-_core:
-  default_config_hash: C804kxfnhhZr_nepPHreTXCqP3fvt0o8SSN2XtaC4i8
 name: 3_2_960x640_focal_point_webp
 label: '3:2 | 960x640 | Focal Point | WebP'
 effects:

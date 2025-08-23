@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - focal_point
-_core:
-  default_config_hash: 80cfH4HxCpJal8fjyPj_2U2IQn9qiLHV-mh17SwH8jA
 name: 1_1_720x720_focal_point_webp
 label: '1:1 | 720x720 | Focal Point | WebP'
 effects:

@@ -2,8 +2,6 @@ uuid: 69bd2a59-0c14-4f72-a29c-afe1a34ef681
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: OOUcrXVRdJF__ijCGehyxq5Dyb7RjsgfDLpPFqd9b9M
 name: uncropped_500w_webp
 label: 'Uncropped | 500w | WebP'
 effects:

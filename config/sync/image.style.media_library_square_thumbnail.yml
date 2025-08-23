@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - focal_point
-_core:
-  default_config_hash: QSJDZnSyRhy4KYDGLGFDV80vWMsrnlKN08TxWwxg4wY
 name: media_library_square_thumbnail
 label: 'Media Library Square Thumbnail'
 effects:
