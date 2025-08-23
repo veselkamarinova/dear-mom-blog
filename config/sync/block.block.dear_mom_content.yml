@@ -1,0 +1,22 @@
+uuid: 1bf1fee4-9a7f-4523-8474-3a51d02b23cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dear_mom
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: dear_mom_content
+theme: dear_mom
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

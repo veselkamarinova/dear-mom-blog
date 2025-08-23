@@ -1,6 +1,6 @@
 name: Dear mom
 type: theme
-base theme: tara
+base theme: olivero
 description: Custom theme for the Dear Mom blog.
 package: Custom
 core_version_requirement: ^10 || ^11

@@ -1,0 +1,20 @@
+uuid: eee35544-3317-4a64-b7c8-3677ad14d20a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dear_mom
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: dear_mom_page_title
+theme: dear_mom
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
