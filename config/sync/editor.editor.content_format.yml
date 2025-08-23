@@ -28,7 +28,6 @@ settings:
       - undo
       - redo
       - removeFormat
-      - sourceEditing
       - aickeditor
   plugins:
     ai_ckeditor_ai:
@@ -40,34 +39,34 @@ settings:
       plugins:
         ai_ckeditor_completion:
           enabled: true
-          provider: openai__gpt-4o
+          provider: openai__gpt-4o-mini
         ai_ckeditor_help:
           enabled: false
         ai_ckeditor_modify_prompt:
-          enabled: false
-          provider: openai__gpt-4o
+          enabled: true
+          provider: openai__gpt-4o-mini
         ai_ckeditor_reformat_html:
           enabled: false
           provider: openai__gpt-4o
         ai_ckeditor_spellfix:
-          enabled: false
-          provider: openai__gpt-4o
-        ai_ckeditor_summarize:
           enabled: true
-          provider: openai__gpt-4o
+          provider: openai__gpt-4o-mini
+        ai_ckeditor_summarize:
+          enabled: false
+          provider: openai__gpt-4o-mini
         ai_ckeditor_tone:
           autocreate: false
-          provider: openai__gpt-4o
+          provider: openai__gpt-4o-mini
           tone_vocabulary: tone
           use_description: 1
           enabled: true
         ai_ckeditor_translate:
           autocreate: true
-          provider: openai__gpt-4o
+          provider: openai__gpt-4.1-mini
           translate_vocabulary: translate_language
           use_description: false
           language_source: tax
-          enabled: true
+          enabled: false
     ckeditor5_alignment:
       enabled_alignments:
         - center
@@ -86,8 +85,6 @@ settings:
         reversed: true
         startIndex: true
       multiBlock: true
-    ckeditor5_sourceEditing:
-      allowed_tags: {  }
     linkit_extension:
       linkit_enabled: true
       linkit_profile: default

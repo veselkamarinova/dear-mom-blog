@@ -9,6 +9,7 @@ dependencies:
     - node.type.blog
     - node.type.page
   module:
+    - ai_ckeditor
     - ai_image_alt_text
     - contextual
     - file
@@ -54,6 +55,7 @@ permissions:
   - 'generate ai alt tags'
   - 'revert all revisions'
   - 'schedule publishing of nodes'
+  - 'use ai ckeditor'
   - 'use text format content_format'
   - 'view all revisions'
   - 'view own unpublished content'
