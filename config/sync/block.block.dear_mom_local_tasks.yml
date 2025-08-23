@@ -1,14 +1,14 @@
-uuid: f8bb2e71-155d-4df1-a9f4-f80fb20127ae
+uuid: 500009a2-7d1d-44ad-85b8-ea87085428ab
 langcode: en
 status: false
 dependencies:
   theme:
-    - tara
+    - dear_mom
 _core:
   default_config_hash: pr3QYCTcRvWFwZ4-uxct2vWlDTF_liV-1RLiNFE5a-g
-id: tara_local_tasks
-theme: tara
-region: header_top
+id: dear_mom_local_tasks
+theme: dear_mom
+region: header
 weight: -8
 provider: null
 plugin: local_tasks_block

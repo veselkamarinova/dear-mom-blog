@@ -1,16 +1,16 @@
-uuid: 195372e9-2382-436e-940f-bdad2baf392b
+uuid: ee1a2cb8-f25a-4791-ac97-813fe5c7d01f
 langcode: en
 status: false
 dependencies:
   module:
     - system
   theme:
-    - tara
+    - dear_mom
 _core:
   default_config_hash: 7W5m1cGZjEB4_o0Di0lrmtWuUx1Wft0TuAVyUSgPUwQ
-id: tara_content
-theme: tara
-region: header_top
+id: dear_mom_content
+theme: dear_mom
+region: header
 weight: -6
 provider: null
 plugin: system_main_block

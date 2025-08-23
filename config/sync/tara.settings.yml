@@ -1,15 +1,5 @@
 _core:
   default_config_hash: duPnr-OK4UcdNf7x52OcphEBB9paQphGpkz249ediLY
-favicon:
-  use_default: true
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
-logo:
-  path: 'public://logo-lisa-blog.png'
-  use_default: false
 all_icons_show: 1
 facebook_url: 'https://www.facebook.com/idewdot'
 twitter_url: 'https://twitter.com/dewdots'
@@ -22,8 +12,8 @@ github_url: ''
 telegram_url: ''
 vimeo_url: ''
 slider_show: 1
-slider_image: {  }
-slider_time: '5000'
+slider_image: ''
+slider_time: 5000
 slider_dots: 'true'
 slider_code: ''
 front_sidebar: 0
