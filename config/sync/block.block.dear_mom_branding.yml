@@ -1,6 +1,6 @@
 uuid: 530c0054-b810-4a01-bd1b-9e4fd6eed3d4
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: L5Isbha2f5lp_ISo3rvGr3kIAEQuKCm1p2KC9-KzSaU
 id: dear_mom_branding
 theme: dear_mom
-region: header
-weight: -8
+region: primary_menu
+weight: -4
 provider: null
 plugin: system_branding_block
 settings:

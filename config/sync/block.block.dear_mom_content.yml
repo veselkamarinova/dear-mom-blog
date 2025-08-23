@@ -11,7 +11,7 @@ _core:
 id: dear_mom_content
 theme: dear_mom
 region: header
-weight: -6
+weight: -2
 provider: null
 plugin: system_main_block
 settings:
