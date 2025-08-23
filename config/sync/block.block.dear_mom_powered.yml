@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: dear_mom_powered
 theme: dear_mom
-region: header
-weight: 0
+region: footer_bottom
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

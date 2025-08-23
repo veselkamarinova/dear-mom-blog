@@ -11,7 +11,7 @@ _core:
 id: dear_mom_site_branding
 theme: dear_mom
 region: header
-weight: 0
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:
