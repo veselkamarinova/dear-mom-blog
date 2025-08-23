@@ -1,0 +1,22 @@
+uuid: e584195e-cad3-4aba-a0a2-5758c0aa6bf1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dear_mom
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: dear_mom_powered
+theme: dear_mom
+region: footer_bottom
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: eb66c52e-4d24-4846-b86e-6cb6df6be316
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.9_16_large
+label: '9:16 Large'
+description: ''
+targetEntityType: media
+cache: true

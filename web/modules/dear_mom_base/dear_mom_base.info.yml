@@ -1,0 +1,5 @@
+name: 'Dear mom'
+type: module
+description: 'Customizations for the Dear Mom blog.'
+package: Custom
+core_version_requirement: ^11

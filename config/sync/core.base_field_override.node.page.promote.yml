@@ -1,11 +1,9 @@
-uuid: 7bf9ce58-b41c-4aef-b3cc-e9a7be0d6785
-langcode: en
+uuid: d9205858-7539-4e8b-9256-701528417f90
+langcode: nl
 status: true
 dependencies:
   config:
     - node.type.page
-_core:
-  default_config_hash: fPUEnm4T5zfZRr3ttDUqq7yCDd2uW3clWD-pvos4tlQ
 id: node.page.promote
 field_name: promote
 entity_type: node
@@ -16,7 +14,7 @@ required: false
 translatable: false
 default_value:
   -
-    value: 0
+    value: 1
 default_value_callback: ''
 settings:
   on_label: 'On'

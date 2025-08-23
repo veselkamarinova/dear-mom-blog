@@ -1,0 +1,11 @@
+uuid: 8e8f9c43-eb64-474a-ad59-0ca2d95e162f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.1_1_square_medium
+label: '1:1 (Square) Medium'
+description: ''
+targetEntityType: media
+cache: true

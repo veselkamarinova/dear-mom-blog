@@ -1,0 +1,20 @@
+uuid: c91bf2e7-5239-45d9-9dd6-991deb189644
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dear_mom
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: dear_mom_primary_admin_actions
+theme: dear_mom
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 9e490147-4091-4a2d-9dfd-c11e68e2ad0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.9_16_small
+label: '9:16 Small'
+description: ''
+targetEntityType: media
+cache: true
