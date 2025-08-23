@@ -3,6 +3,6 @@
   color: var(--color--gray-65);
   background: #5D4E4B;
 }
-.contextual span {
+.site-footer .block-system-powered-by-block span {
   color: #f1f0e2;
 }
