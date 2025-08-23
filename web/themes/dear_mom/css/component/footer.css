@@ -1,8 +1,12 @@
 .site-footer {
-  position: relative; /* stack above left social bar */
-  color: var(--color--gray-65);
-  background: #5D4E4B;
+  background: #5D4E4B !important;
 }
 .site-footer .block-system-powered-by-block span {
-  color: #f1f0e2;
+  color: #f1f0e2 !important;
+}
+
+@media (min-width: 75rem) {
+  body:not(.is-always-mobile-nav) .site-footer {
+    border-inline-start: solid var(--content-left) #6D5B58 !important;
+  }
 }
