@@ -5,9 +5,9 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: themes/dear_mom/logo.png
+  path: themes/dear_mom/ok_logo.png
 favicon:
   use_default: 1
 mobile_menu_all_widths: 0
 site_branding_bg_color: default
-base_primary_color: '#1b9ae4'
+base_primary_color: '#E4C7B8'

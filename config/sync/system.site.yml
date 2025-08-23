@@ -2,7 +2,7 @@ _core:
   default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
 langcode: en
 uuid: 71e1bed0-78ff-4563-9d3e-9c14c8246807
-name: 'Dear Mom I am OK!'
+name: "Dear Mom I'm OK!"
 mail: admin@example.com
 slogan: ''
 page:
