@@ -1,0 +1,5 @@
+.site-footer {
+  position: relative; /* stack above left social bar */
+  color: var(--color--gray-65);
+  background: linear-gradient(180deg, var(--color--gray-5) 0%, var(--color--gray-60) 100%);
+}
