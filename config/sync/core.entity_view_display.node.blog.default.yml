@@ -74,16 +74,6 @@ third_party_settings:
               items_per_page: null
             weight: 6
             additional: {  }
-          774e5cfe-36b2-40ba-a5ff-13c821e3b9af:
-            uuid: 774e5cfe-36b2-40ba-a5ff-13c821e3b9af
-            region: content
-            configuration:
-              id: 'extra_field_block:node:blog:content_moderation_control'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 3
-            additional: {  }
           0e9be297-1812-4215-b940-a61b7e808025:
             uuid: 0e9be297-1812-4215-b940-a61b7e808025
             region: content
@@ -107,11 +97,6 @@ targetEntityType: node
 bundle: blog
 mode: default
 content:
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: -20
-    region: content
   field_content:
     type: text_default
     label: hidden

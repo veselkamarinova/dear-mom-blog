@@ -39,16 +39,6 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
-          b09072a1-7bd8-49c5-ac58-2da953562e12:
-            uuid: b09072a1-7bd8-49c5-ac58-2da953562e12
-            region: content
-            configuration:
-              id: 'extra_field_block:node:page:content_moderation_control'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 1
-            additional: {  }
           bfcb27c2-a42f-4e71-bf84-1841a548d5a6:
             uuid: bfcb27c2-a42f-4e71-bf84-1841a548d5a6
             region: content
@@ -95,11 +85,6 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: -20
-    region: content
   field_content:
     type: text_default
     label: hidden
