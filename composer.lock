@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb379c64c3710787a5bde647bfef55dc",
+    "content-hash": "4f5bf731a50b4025ccab026cc77c8b31",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2404,6 +2404,53 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/checklistapi",
                 "issues": "https://www.drupal.org/project/issues/checklistapi"
+            }
+        },
+        {
+            "name": "drupal/ckeditor_emoji",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ckeditor_emoji.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_emoji-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "e85c1dc8a037e7a684f1434f660e4e1d2c4aba05"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1731728742",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "branch-alias": {
+                    "dev-2.0.x": "2.0.x-dev"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ashrafomar",
+                    "homepage": "https://www.drupal.org/user/3520049"
+                }
+            ],
+            "description": "CKEditor Emoji Plugin is designed to enhance the content editing experience in Drupal by enabling the insertion of emojis directly into your text.",
+            "homepage": "https://www.drupal.org/project/ckeditor_emoji",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ckeditor_emoji"
             }
         },
         {

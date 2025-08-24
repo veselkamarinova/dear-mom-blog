@@ -28,6 +28,7 @@ settings:
       - undo
       - redo
       - removeFormat
+      - Emoji
       - aickeditor
   plugins:
     ai_ckeditor_ai:
