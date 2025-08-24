@@ -18,7 +18,6 @@ dependencies:
     - navigation
     - node
     - path
-    - redirect
     - scheduler
     - system
 _core:
@@ -34,8 +33,6 @@ permissions:
   - 'access media overview'
   - 'access navigation'
   - 'administer menu'
-  - 'administer redirects'
-  - 'administer url aliases'
   - 'create blog content'
   - 'create image media'
   - 'create page content'
