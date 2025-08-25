@@ -1,0 +1,15 @@
+# Docs at https://github.com/drush-ops/drush/blob/master/examples/example.site.yml
+
+staging:
+  host: staging.cupcakegoesabroad.com
+  user: cupcake
+  root: /home/cupcake/www.cupcakegoesabroad.com/repo/web
+  uri: http://staging.cupcakegoesabroad.com
+
+production:
+  host: cupcakegoesabroad.com
+  user: cupcake
+  root: /home/cupcake/www.cupcakegoesabroad.com/repo/web
+  uri: https://cupcakegoesabroad.com
+  paths:
+    drush-script: /home/cupcake/www.cupcakegoesabroad.com/repo/vendor/bin/drush
