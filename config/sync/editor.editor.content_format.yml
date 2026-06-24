@@ -56,18 +56,18 @@ settings:
           enabled: false
           provider: openai__gpt-4o-mini
         ai_ckeditor_tone:
-          autocreate: false
-          provider: openai__gpt-4o-mini
-          tone_vocabulary: tone
-          use_description: 1
           enabled: true
+          provider: openai__gpt-4o-mini
+          autocreate: false
+          tone_vocabulary: tone
+          use_description: true
         ai_ckeditor_translate:
-          autocreate: true
+          enabled: false
           provider: openai__gpt-4.1-mini
+          language_source: tax
+          autocreate: true
           translate_vocabulary: translate_language
           use_description: false
-          language_source: tax
-          enabled: false
     ckeditor5_alignment:
       enabled_alignments:
         - center
