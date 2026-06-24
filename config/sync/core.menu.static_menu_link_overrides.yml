@@ -8,26 +8,26 @@ definitions:
     expanded: false
     enabled: false
   navigation__content__node_type__page:
+    menu_name: content
+    parent: navigation.create
     weight: -50
-    menu_name: content
-    parent: navigation.create
-    enabled: true
     expanded: false
+    enabled: true
   navigation__content__node_type__blog:
-    weight: -49
     menu_name: content
     parent: navigation.create
+    weight: -49
     expanded: false
     enabled: true
   navigation__content__media_type__image:
-    weight: -48
     menu_name: content
     parent: navigation.create
+    weight: -48
     expanded: false
     enabled: true
   navigation__create__user:
-    weight: -46
     menu_name: content
     parent: navigation.create
+    weight: -46
     expanded: false
     enabled: true
