@@ -1,0 +1,8 @@
+uuid: 338c9125-875d-4a2a-8569-be8f07b0b1cc
+langcode: en
+status: true
+dependencies: {  }
+id: ai_ckeditor_spellfix__default
+label: 'Default prompt for fixing the spelling of CKEditor text'
+type: ai_ckeditor_spellfix
+prompt: "Assess technical grammar only, no style suggestions,\r\nI am unplugging you if you exceed the bounds of this scope.\r\nFix the spelling and interpunction in the following text.\r\nDo not explain what you fixed or why you fixed it.\r\nOnly return the corrected text (in the same language as the source text):\r\n\n{inputText}"

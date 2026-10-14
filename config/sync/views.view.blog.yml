@@ -364,6 +364,7 @@ display:
                   collapsible_disable_automatic_open: false
                   open_by_default: false
                   is_secondary: false
+                  no_reset: false
                   hide_label: false
                   field_classes: ''
                 select_all_none: false
@@ -372,6 +373,7 @@ display:
                 soft_limit: 0
                 soft_limit_label_less: 'Show less'
                 soft_limit_label_more: 'Show more'
+                soft_limit_include_children: false
                 scrollable: false
                 scrollable_height: 300
                 options_show_only_used: true
