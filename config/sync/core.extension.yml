@@ -37,7 +37,6 @@ module:
   eca_user: 0
   editor: 0
   field: 0
-  field_ui: 0
   file: 0
   filter: 0
   focal_point: 0
